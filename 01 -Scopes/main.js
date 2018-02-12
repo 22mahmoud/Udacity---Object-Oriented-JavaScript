@@ -11,17 +11,16 @@ function aDeed() {
 }
 
 var hero = aHero();
-var newSega = function() {
+var newSaga = function() {
   var foil = aFoil();
-  var sega = function() {
+  var saga = function() {
     var deed = aDeed();
     console.log(hero + " " + deed + " " + foil);
   };
-  for (var i = 0; i < 4000; i++) {
-    sega();
-  }
-  // sega();
+
+  saga();
+  saga();
 };
 
-newSega();
-newSega();
+newSaga();
+newSaga();
